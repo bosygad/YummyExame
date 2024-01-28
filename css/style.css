@@ -1,0 +1,130 @@
+a{
+    text-decoration: none;
+   
+}
+ul{
+    list-style-type: none;
+    padding-left:20px ;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+body{
+background-color:#0D0D0D;
+color: #f9f6f6 !important;
+}
+.input{
+    display: none;
+}
+/* aside */
+aside{
+    position: absolute;
+    top: 0;
+    left: 0;
+   bottom: 0;
+   z-index: 99999;
+} 
+aside li{
+    padding-right: 80px !important;
+    padding-top: 20px !important;
+    
+}
+aside li a{
+    color: #ffffff;
+}
+.menu{
+    position: fixed;
+    top: 0;
+   left: -200px;
+    bottom: 0;
+    z-index: 99999;
+
+
+    
+ 
+}
+.option{
+    padding: 10px !important;
+    z-index: 999999;
+}
+
+.option img{
+    width: 50px;
+}
+.option .fa-bars,.option .fa-xmark{
+    font-size: 30px;
+     cursor: pointer;
+     color: #0D0D0D !important;
+}
+.option .fa-xmark {
+    display: none;
+}
+.option a{
+    color: black;
+}
+
+.mail-overlay{
+    color: #0D0D0D !important;
+    background-color: #f9f6f6ca;
+    top:100%;
+   width: 100%;
+   height: 100%;
+    overflow: hidden;
+    transition: .5s;
+   
+} 
+
+.mail-item:hover .mail-overlay{
+    top: 0;
+} 
+
+
+.loanding{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 33333;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  
+  }
+  /* .load{
+      width: 100px;
+      height: 100px;
+      /* background-color: #e00a0a; *
+      display: inline-block;
+      border-radius: 50%;
+      border-top: 4px solid #fff;
+      border-right: 4px solid transparent;
+      box-sizing: border-box;
+      position: relative;
+      animation: rotation 1s linear infinite;
+    
+  }
+  .load::after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px;
+      height: 100px;
+    border-radius: 50%;
+      border-left: 4px solid palevioletred;
+      border-bottom: 4px solid transparent ;
+      box-sizing: border-box;
+      animation: rotation .5s linear infinite reverse;
+  
+  }
+  
+  @keyframes rotation {
+      0%{
+          transform: rotate(0deg);
+      }
+      100%{
+          transform: rotate(360deg);
+      }
+  } */
